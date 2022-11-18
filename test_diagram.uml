@@ -3,11 +3,20 @@
   <ID>DATABASE</ID>
   <OriginalElement>5a8b3040-e769-4eed-b178-42070da23c11.TABLE:postgres.public.image</OriginalElement>
   <nodes>
-    <node x="-52.0" y="-41.0">5a8b3040-e769-4eed-b178-42070da23c11.TABLE:postgres.public.image</node>
+    <node x="-54.00000000000006" y="-476.33333333333337">5a8b3040-e769-4eed-b178-42070da23c11.TABLE:postgres.public.image</node>
   </nodes>
-  <notes />
+  <notes>
+    <note x="-163.00000000000006" y="-608.3333333333334">
+      <node>5a8b3040-e769-4eed-b178-42070da23c11.TABLE:postgres.public.image</node>
+      <value>No documentation found</value>
+      <edge>
+        <point x="0.0" y="0.0" />
+        <point x="0.0" y="0.0" />
+      </edge>
+    </note>
+  </notes>
   <edges />
-  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="0.0" y="0.0" />
+  <settings layout="Circular" zoom="1.5" showDependencies="false" x="-187.99999999999994" y="-430.0" />
   <SelectedNodes>
     <node>5a8b3040-e769-4eed-b178-42070da23c11.TABLE:postgres.public.image</node>
   </SelectedNodes>
