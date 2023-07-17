@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PostgreSQL 11" uuid="5a8b3040-e769-4eed-b178-42070da23c11">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="EXTERNAL_DATA_PATH" value="$PROJECT_DIR$/external-data.xml" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MongoDB" group="Test_If_Disappear" uuid="2ceebda4-62eb-42ea-8e0c-1dfb004c7192">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://localhost:27017</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle 11.2" uuid="285dc9aa-7516-4da5-8b3a-820290a687bf">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@localhost:1521:XE</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="dbms_output" value="true" />
+        <property name="EXTERNAL_DATA_PATH" value="$PROJECT_DIR$/oracle_virt_view.xml" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [2]" group="Other" uuid="4d1bda80-4fa3-4a7f-bff2-4a2601d0a54d">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://localhost:9042</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL_8.0.3" uuid="6e2e3a21-46af-42d5-a324-c387cde045c2">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:33080/guest</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="useSSL" value="FALSE" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Firebird" uuid="c4388220-88ec-4944-8545-77dd12a7dd60">
+      <driver-ref>firebird</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.firebirdsql.jdbc.FBDriver</jdbc-driver>
+      <jdbc-url>jdbc:firebirdsql://localhost:3050//firebird/data/testdb.fdb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Neo4j_Test" group="Test_If_Disappear" uuid="81e01bfc-391f-4f7b-b17c-701aa66c5a95">
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.neo4j.jdbc.bolt.BoltDriver</jdbc-driver>
+      <jdbc-url>jdbc:neo4j:https://localhost:7473/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MariaDB_Decomissioned" uuid="0b7a87b3-deac-4505-87ed-4ea141b67d79">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost" group="Other" uuid="dfef582b-8529-4584-92f4-097f7ee19894">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="BigQuery" uuid="34bfd25a-8671-4ccc-a253-a71e1f9706cd">
+      <driver-ref>bigquery</driver-ref>
+      <jdbc-driver>com.simba.googlebigquery.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:bigquery://https://www.googleapis.com/bigquery/v2:443;OAuthType=2;ProjectId=dgpoc-208411;OAuthAccessToken=ya29.a0Ae4lvC3uKArHXoHiHCFbxof7qTeRAz3hdyBwv_LsmCDwNPZDHKKvDKRzLR8wTZ3rhpyaQLXdMifNL1o79gG9X5fn9LOfMyUJZQC7kDsXAsDzDTxEyskJq8MpVAa3aFngl1zL340GgjvcT2_PDaZZ-b6s_yMOFYPPf4I;OAuthClientId=382535308730-akkrqmlsues798t3uc0b8p1ltpefktmv.apps.googleusercontent.com;OAuthClientSecret=5RPJz_5ZzU4Fg3OClvZbBhGN;OAuthRefreshToken=1//0crQ96SKvy0doCgYIARAAGAwSNwF-L9Ir46lA89qWQX-YLlq-cJNUWTwncoAGwr68FRAAukUK5XMB834i08GNA_Q8TwXth4cj1c0;DefaultDataset=fortest;Timeout=300;</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="OAuthClientSecret" value="5RPJz_5ZzU4Fg3OClvZbBhGN" />
+        <property name="JdbcLog.Enabled" value="true" />
+        <property name="OAuthRefreshToken" value="1//0crQ96SKvy0doCgYIARAAGAwSNwF-L9Ir46lA89qWQX-YLlq-cJNUWTwncoAGwr68FRAAukUK5XMB834i08GNA_Q8TwXth4cj1c0" />
+        <property name="JdbcLog.Path" value="$USER_HOME$/Documents" />
+        <property name="ProjectId" value="dgpoc-208411" />
+        <property name="OAuthAccessToken" value="ya29.a0Ae4lvC3uKArHXoHiHCFbxof7qTeRAz3hdyBwv_LsmCDwNPZDHKKvDKRzLR8wTZ3rhpyaQLXdMifNL1o79gG9X5fn9LOfMyUJZQC7kDsXAsDzDTxEyskJq8MpVAa3aFngl1zL340GgjvcT2_PDaZZ-b6s_yMOFYPPf4I" />
+        <property name="OAuthClientId" value="382535308730-akkrqmlsues798t3uc0b8p1ltpefktmv.apps.googleusercontent.com" />
+      </jdbc-additional-properties>
+      <driver-properties>
+        <property name="EnableHighThroughPutAPI" value="1" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Redis 6" uuid="2e6e725d-3c7e-4b16-9756-07ce6f736a0e">
+      <driver-ref>redis</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
+      <jdbc-url>jdbc:redis://localhost:6380</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="EXTERNAL_DATA_PATH" value="$PROJECT_DIR$/external-data.xml" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="ANALYTICS_PROD_DB@carbonhealth.us-east-1.snowflakecomputing.com" uuid="e4dd414a-ba7c-4ab4-a932-2f151b1e466d">
+      <driver-ref>snowflake</driver-ref>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://carbonhealth.us-east-1.snowflakecomputing.com/?warehouse=metabase_wh&amp;db=ANALYTICS_PROD_DB&amp;schema=ANALYTICS&amp;role=DATA SCIENCE</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="ssl-artifact" value="sf-ssl" />
+        <property name="authenticator" value="externalbrowser" />
+        <property name="test-user-password" value="Snowflake@pass1" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="ClickHouse 21" group="Test_If_Disappear" uuid="0f601f7c-6e8f-487f-920d-7fa455f65250">
+      <driver-ref>clickhouse</driver-ref>
+      <jdbc-driver>com.clickhouse.jdbc.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://localhost:8126/default</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Sqlite Xerial" uuid="91cedf2b-2808-468a-a714-d2a06bd98b9e">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$APPLICATION_HOME_DIR$/bin/xerial</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="JdbcLog.Enabled" value="true" />
+        <property name="JdbcLog.Path" value="$USER_HOME$/Downloads/SQLite" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Snowflake [2]" uuid="092a8fc9-a6ae-4f3c-a53b-44750c338be2">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://jetbrainspartner.eu-central-1.snowflakecomputing.com/?warehouse=DEMO_WH&amp;db=TEST_DB&amp;schema=PUBLIC</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="ssl-artifact" value="sf-ssl" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Redshift" uuid="dda11bdb-e049-4b43-855b-d0f005d055b0">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://datagrip.c8h19ajxifub.eu-west-1.redshift.amazonaws.com:5439/repository_user_1</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="ssl-artifact" />
+      </jdbc-additional-properties>
+    </data-source>
+    <data-source source="LOCAL" name="empty.gpkg" uuid="21ff18d6-cd9c-4be0-a51e-43999b86347c">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/Downloads/SQLite/empty.gpkg</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Alpha.gpkg" uuid="bf1701e4-c760-4a09-a169-72e820bf906d">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/Downloads/Alpha.gpkg</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="date_class" value="TEXT" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Aurora MySQL AWS" uuid="eda8cde0-cdac-47de-9682-d0c8f36e73f1">
+      <driver-ref>mysql_aurora</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://dgauroramysql56.cluster-cjoftgtsa0as.eu-west-1.rds.amazonaws.com:33056/aurora</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="testdb@localhost" uuid="f881e1e8-65f1-4dc7-91a0-766c807f34c7">
+      <driver-ref>db2.11</driver-ref>
+      <jdbc-driver>com.ibm.db2.jcc.DB2Driver</jdbc-driver>
+      <jdbc-url>jdbc:db2://localhost:50002/testdb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="metastore@hive-metastore" uuid="775f8c5c-ea55-4070-b0c5-bbf31e9c3467">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://hive-metastore:9083/metastore</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MS SQL Azure" uuid="8e8cf4ff-bd83-4bc1-9411-9c81cb5e35ed">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://bavaria.database.windows.net:1433;database=TC_Testing_1</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="test_changes.db" uuid="4b38924e-99c1-4d32-8ae8-df4ebd1850c6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$USER_HOME$/test_changes.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="ClickHouse_21" uuid="557b0e8c-9afc-4e8d-a5ed-1d7bf87c5410">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.clickhouse.jdbc.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://localhost:8126/default</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MariaDB" uuid="78af1180-d2d4-42a4-8de9-8ba10a0bf50a">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:33105/guest</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [3]" uuid="526de6e3-90da-46b2-91f2-e2d6bb7f3b98">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://localhost:9046/?sslenabled=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="MongoDB_5" uuid="82e125d1-1f55-4270-9309-62de78eec835">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://localhost:27022</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

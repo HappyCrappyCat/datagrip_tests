@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$USER_HOME$/Contact_History_1022_1028_test_4.sql" dialect="PostgreSQL" />
+    <file url="file://$USER_HOME$/Data Dumps/public" dialect="PostgreSQL" />
+    <file url="file://$USER_HOME$/Data Dumps/testdb" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../NewDataProj/djdjkd.sql" dialect="PostgreSQL" />
+    <file url="file://$USER_HOME$/Downloads/Daily_POI_USA_2022_11_30_new.sql" dialect="PostgreSQL" />
+    <file url="file://$USER_HOME$/Downloads/expand_col_test.sql" dialect="TSQL" />
+    <file url="file://$USER_HOME$/Downloads/query formatted vs expected.sql" dialect="GenericSQL" />
+    <file url="file://$USER_HOME$/Downloads/wwv_flow_t_parser_row.sql" dialect="Oracle" />
+    <file url="file://$USER_HOME$/MappingTest/Map_MariaDB" dialect="MariaDB" />
+  </component>
+  <component name="SqlResolveMappings">
+    <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
+  </component>
+</project>

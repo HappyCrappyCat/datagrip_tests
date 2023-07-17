@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="6852a6b0-05b1-412c-b235-f7f375c57694" name="PostgreSQL [2] Mapping">
+      <data-sources db="5a8b3040-e769-4eed-b178-42070da23c11" ddl="6e782eee-417f-40f9-aee4-684a97e8a059" />
+      <scope>
+        <node negative="1">
+          <node kind="database" negative="1" />
+          <node kind="database">
+            <name qname="@" />
+            <name qname="postgres" />
+            <name qname="testdb" />
+            <node kind="schema" negative="1" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="4ef8185e-b41e-4419-860d-5ea4c444f96f" name="guest@localhost DDL Mapped">
+      <data-sources db="78af1180-d2d4-42a4-8de9-8ba10a0bf50a" ddl="b513b1cd-dbfe-4afb-afc3-1166d4f32603" />
+      <scope>
+        <node negative="1">
+          <node kind="database" negative="1" />
+          <node kind="database" qname="@">
+            <node kind="schema" negative="1" />
+          </node>
+          <node kind="schema">
+            <name qname="guest" />
+            <name qname="information_schema" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="6e782eee-417f-40f9-aee4-684a97e8a059" />
+          <option name="name" value="PostgreSQL [2] (DDL Mapping)" />
+          <option name="dbmsName" value="POSTGRES" />
+          <option name="parent" value="5a8b3040-e769-4eed-b178-42070da23c11" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+        <State>
+          <option name="id" value="b513b1cd-dbfe-4afb-afc3-1166d4f32603" />
+          <option name="name" value="Test" />
+          <option name="dbmsName" value="POSTGRES" />
+          <option name="urls">
+            <array>
+              <option value="file://$USER_HOME$/Data Dumps/testdb" />
+            </array>
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+        <State>
+          <option name="id" value="f35ed1ae-e75c-4661-8cf6-3cac122fce5f" />
+          <option name="name" value="Test2" />
+          <option name="dbmsName" value="POSTGRES" />
+          <option name="urls">
+            <array>
+              <option value="file://$USER_HOME$/Data Dumps/public" />
+            </array>
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+        <State>
+          <option name="id" value="c03e5551-185d-49d6-a637-eeb108cbe0c9" />
+          <option name="name" value="MariaDB Mapped" />
+          <option name="dbmsName" value="MARIADB" />
+          <option name="urls">
+            <array>
+              <option value="file://$USER_HOME$/MappingTest/Map_MariaDB" />
+            </array>
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
